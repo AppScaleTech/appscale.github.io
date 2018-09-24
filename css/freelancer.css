@@ -266,6 +266,10 @@ header.masthead h2 {
   }
 }
 
+.definition-list-items dt {
+  margin-top: 20px;
+}
+
 .floating-label-form-group {
   position: relative;
   border-bottom: 1px solid #e9ecef;
