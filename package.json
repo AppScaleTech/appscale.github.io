@@ -25,13 +25,20 @@
         "type": "git",
         "url": "https://github.com/BlackrockDigital/startbootstrap-freelancer.git"
     },
+    "scripts": {
+        "preinstall": "npx npm-force-resolutions"
+    },
+    "resolutions": {
+        "graceful-fs": "^4.2.4"
+    },
     "dependencies": {
         "bootstrap": "4.0.0",
         "font-awesome": "4.7.0",
         "grunt": "^1.0.3",
         "jquery": "3.3.1",
         "jquery.easing": "^1.4.1",
-        "magnific-popup": "^1.1.0"
+        "magnific-popup": "^1.1.0",
+        "node-sass": "^5.0"
     },
     "devDependencies": {
         "browser-sync": "2.23.6",
